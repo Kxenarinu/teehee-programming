@@ -8,13 +8,13 @@ namespace AG3566
     {
 
         DiscoDecorationClass DiscoBall;
-        public float startDelay = 1.0f;
-        public float repeat = 2.0f;
+       
+       
 
         void Start()
         {
-            //DiscoBall = GameObject.FindGameObjectWithTag("DiscoTag").GetComponent<DiscoDecorationClass>();
-
+            DiscoBall = GameObject.FindGameObjectWithTag("DiscoTag").GetComponent<DiscoDecorationClass>();
+           
 
             transform.position = new Vector3(3, 6, 1);
             transform.localScale = Vector3.one * 2.5f;
