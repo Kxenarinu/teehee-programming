@@ -27,9 +27,9 @@ public class Mineenemy : MonoBehaviour
 
     void changeColor()
     {
-        Material material = Renderer.material;
+        Material ma = Renderer.material;
 
-        material.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
+        ma.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
 
     }
     void changeSize()

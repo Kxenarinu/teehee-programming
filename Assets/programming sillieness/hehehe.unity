@@ -744,7 +744,7 @@ GameObject:
   - component: {fileID: 1896079008}
   m_Layer: 0
   m_Name: mine enemies friend
-  m_TagString: Untagged
+  m_TagString: DiscoTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
