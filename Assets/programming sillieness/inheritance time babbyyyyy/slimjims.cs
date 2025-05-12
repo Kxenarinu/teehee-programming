@@ -2,17 +2,22 @@ using AG3566;
 using UnityEngine;
 namespace AG3566
 {
-    public class slimjims : Dummies
+    public class partying : MonoBehaviour
     {
-        slimjims killinit = new slimjims();
-        void Start()
+        Dummies slimmest = new Dummies();
+        //shimmyjims killem = new shimmyjims();
+        void Start() 
         {
-            
+            slimmest = GameObject.FindGameObjectWithTag("slimjims").GetComponent<Dummies>();
+            //killem = GameObject.FindGameObjectWithTag("shimmies").GetComponent<shimmyjims>();
+
         }
         void Update() 
-        { 
-         killinit.gameObject.SetActive(true);
-            killinit.partyTime();
+        {
+
+            slimmest.partyTime();
+            //killem.partyTime();
+        
         }
     }
 
