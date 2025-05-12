@@ -20,7 +20,6 @@ namespace AG3566
         void Update() 
         {
             slimmest.partyTime();
-            killem.partyTime();
         }
     }
 

@@ -5,7 +5,7 @@ namespace AG3566
 
     public class shimmyjims : Dummies
     {
-        shimmyjims killem = new shimmyjims();
+       
         public override void partyTime()
         {
             float rZ = Mathf.SmoothStep(0, RotAngleZ, Mathf.PingPong(Time.time * speed, 1));
