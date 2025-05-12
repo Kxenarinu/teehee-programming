@@ -10,7 +10,7 @@ namespace AG3566
         void Start() 
         {
             if (gameObject.tag == "slimjims")
-            { slimmest = GameObject.FindGameObjectWithTag("slimjims").GetComponent<Dummies>(); }
+            { slimmest = GameObject.FindGameObjectWithTag("slimjims").GetComponent<Dummies>();}
 
             else { killem = GameObject.FindGameObjectWithTag("shimmies").GetComponent<shimmyjims>(); }
             
@@ -19,11 +19,8 @@ namespace AG3566
         }
         void Update() 
         {
-            if (gameObject.tag == "slimjims")
-                { slimmest.partyTime(); }
-            else { killem.partyTime(); }
-           
-        
+            slimmest.partyTime();
+            killem.partyTime();
         }
     }
 
